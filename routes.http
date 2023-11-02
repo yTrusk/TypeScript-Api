@@ -1,0 +1,36 @@
+POST http://localhost:3333/createproduct
+Content-type: application/json
+
+{
+    "name":"baaaa",
+    "description":"teste",
+    "price":"0.99",
+    "category":"teste",
+    "stock":"1",
+    "image":"0"
+}
+
+###
+
+GET http://localhost:3333/list/f8d11743-da5d-416a-8ce1-95bcac53cd9f
+
+###
+
+PUT http://localhost:3333/updateproducts/da8fd2b5-1be5-44b8-8a86-b0293d591bb2
+Content-type: application/json
+
+{
+  "name": "teste 2",
+  "description": "teste",
+  "price": "6.00",
+  "category": "Batatas",
+  "stock": "1",
+  "image": "no"
+}
+
+
+
+###
+
+DELETE http://localhost:3333/deleteproduct/da8fd2b5-1be5-44b8-8a86-b0293d591bb2
+###
