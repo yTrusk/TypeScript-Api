@@ -6,7 +6,7 @@ import { catcherror, embedcreator } from "./functions/functions";
 import { inspect } from "util";
 
 const webhookSucessUrl: string =
-  "https://discord.com/api/webhooks/1169709538799263774/q0D0qeoQxv1MSFKbLHOUeG94_qDb4FSjmgUhQNe3chVuk0Z0xGCy9UG0BXSk2dENTxE0";
+  "";
 const server = fastify();
 
 const database = new DatabasePostgres();
